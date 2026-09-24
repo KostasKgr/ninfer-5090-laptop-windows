@@ -64,8 +64,6 @@ if not errorlevel 1 (
     if errorlevel 2 exit /b 1
 )
 
-REM  --max-context 262144 
-
 "%SERVE%" "%MODEL%" ^
   --vision ^
   --spec dflash2 ^
