@@ -84,7 +84,8 @@ if not errorlevel 1 (
   --max-private-continuations 8 ^
   --max-long-anchors-per-continuation 4 ^
   --preserve-thinking ^
-  --default-thinking-budget 4096 ^
+  --default-max-tokens 4096 ^
+  --default-thinking-budget 3072 ^
   --pending-timeout-ms 600000
 
 pause
