@@ -24,7 +24,7 @@ $Presets = @{
         DraftTokens    = 7
         MaxContext     = 45056
         ModelId        = 'qwen3.8-27b-quasar-v3-dflash2-vision'
-        MaxTokens      = 4096
+        MaxTokens      = 6144
         ThinkingBudget = 3072
     }
     mtp4    = [pscustomobject]@{
@@ -32,7 +32,7 @@ $Presets = @{
         DraftTokens    = 4
         MaxContext     = 65536
         ModelId        = 'qwen3.8-27b-quasar-v3-mtp4-vision'
-        MaxTokens      = 4096
+        MaxTokens      = 6144
         ThinkingBudget = 3072
     }
 }
